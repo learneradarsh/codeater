@@ -1,0 +1,46 @@
+#bottom
+ {background:url(images/footer-bg.jpg) repeat;
+ width: 100%; overflow: hidden; margin:33px auto 0 auto;}
+ #footer
+ {
+ width:1000px;
+ margin: 0 auto;
+ }
+
+ #footer ul
+ {list-style:none;
+ color:#ffffff;
+ margin-left:42px;
+ }
+
+ #footer ul li
+ {
+ padding:10px;
+ text-decoration: none;
+ background:url(images/underline.png) no-repeat bottom;
+  }
+ .color
+   {
+   color:#000000;
+   background:none !important;
+   }
+
+   .image
+   {
+   margin-left:50px;
+   }
+
+   .bottom-ul
+   {
+   float:left;width:22%;
+   margin-left:30px;
+   }
+   .bottom-ul ul li img
+   {
+   margin: 0px 2px;
+   }
+   #bottom-text
+   {
+   text-align:center;
+   color:#FFF;
+   }
