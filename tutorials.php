@@ -20,20 +20,20 @@
   <body>
   <?php include_once 'header.php'; ?>
   <div class="container-fluid">
-  <div class="row">
-  <div class="col-md-4">
-  <div  style="margin-top:15px;">
- <ul class="nav nav-pills nav-stacked" id="myTabs">
-<li class="active"><a href="#Programming" data-toggle="pill">Programming Language Introduction</a></li>
-<li><a href="#BasicMathematics" data-toggle="pill">Basic Mathematics & Modular Mathematics</a></li>
-<li><a href="#Algorithms" data-toggle="pill">Algorithms</a></li>
-<li><a href="#OtherTutorials" data-toggle="pill">Other Tutorials</a></li>
- </ul>
-</div>
-  </div>
-<div class="col-md-8">
-<div class="tab-content">
-<div id="Programming" class="tab-pane fade in active">
+    <div class="row">
+        <div class="col-md-4">
+            <div  style="margin-top:15px;">
+                <ul class="nav nav-pills nav-stacked" id="myTabs">
+                    <li class="active"><a href="#Programming" data-toggle="pill">Programming Language Introduction</a></li>
+                    <li><a href="#BasicMathematics" data-toggle="pill">Basic Mathematics & Modular Mathematics</a></li>
+                    <li><a href="#Algorithms" data-toggle="pill">Algorithms</a></li>
+                    <li><a href="#OtherTutorials" data-toggle="pill">Other Tutorials</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="tab-content">
+                <div id="Programming" class="tab-pane fade in active">
     <div clas="row">
         <ul class="nav nav-tabs">
          <li class="active"><a data-toggle="tab" href="#C">C</a></li>

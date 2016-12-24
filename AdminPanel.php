@@ -32,7 +32,6 @@
 
       </head>
       <body>
-      <?php include_once 'dash_header.php'; ?>
 <div class="container-fluid">
 <div class="row"><!--**********************************************************************************Side Bar  -->
 <div class="col-md-3">
@@ -65,6 +64,6 @@
 
 
 </div>
-<?php include_once 'footer.php'; ?>
+
 </body>
 </html>
