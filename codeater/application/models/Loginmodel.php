@@ -38,4 +38,15 @@ class Loginmodel extends CI_Model
 		return ($this->db->affected_rows() != 1)?FALSE:TRUE;
 	}
 
+	public function do_login($ce_username,$password)
+	{
+		$query = $this->db->get_where('signup', array('ce_username' => $ce_username,'password' => md5($password),'activation_code' => 'active'));		
+		return $query->result();
+	}
+
+	public function isActive($ce_username,$password)
+	{
+		$query = $this->db->get_where('signup', array('ce_username' => $ce_username,'password' => md5($password)));
+		return ($query->num_rows() > 0)?TRUE:FALSE;
+	}
 }	
