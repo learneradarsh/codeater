@@ -52,13 +52,22 @@ class Login extends CI_Controller {
 	}
 	
 	public function sendmail($emailsignup) {
+		$this->load->library('email');
 		$code = md5(uniqid(rand(), true));
 		$to=$emailsignup;
 		$sub="Code@ter Activation Mail";
 		$msg="Please click on link to activate your account.\n";
 		$msg.="".base_url('login')."/activate/". urlencode($emailsignup)."$code";
 		$headers="From: Code@ter.\n";
-		mail($to,$sub,$msg,$headers);
+		//mail($to,$sub,$msg,$headers);
+
+		$this->email->from('no-reply@codeaters.com', $headers);
+		$this->email->to($to);
+		 
+		$this->email->subject($sub);
+		$this->email->message($msg);
+		$this->email->send();
+
 		return $code;
 	}
 
