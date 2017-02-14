@@ -54,13 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['general/(:any)'] = 'codeater/general/$1';
 $route['general'] = 'codeater/index';
-$route['practice'] = 'codeater/practice';
-$route['tutorials'] = 'codeater/tutorials';
-$route['COC'] = 'user/COC';
-$route['inbox'] = 'user/inbox';
-$route['rank_list'] = 'user/rank_list';
-
 $route['contest'] = 'codeater/contest';
-
 $route['signup'] = 'login/show_signup';
 

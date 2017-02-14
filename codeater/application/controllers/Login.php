@@ -76,40 +76,6 @@ class Login extends CI_Controller {
 		}
 	}
 
-	public function do_login()
-	{
-		$ce_username=$this->input->post('username');
-		$password=$this->input->post('password');
-
-		$this->load->model('loginmodel');
-
-		if($this->loginmodel->isActive($ce_username,$password))
-		{
-			$user=$this->loginmodel->do_login($ce_username,$password);
-			if( $user[0]->ce_id )
-			{
-				$this->load->view('header/dash_header');
-				$this->load->view('user/dashboard');
-				$this->load->view('footer/footer');			
-			}
-			else
-			{
-				$this->session->set_flashdata('errorVerify','Please go to the registered Email address to verify your account.!');	
-				 return redirect('login/show_signup');	
-			}
-		}
-		else {
-			
-			$this->session->set_flashdata('login_failed','Invalid Email Or Password');
-			return redirect('login/show_signup');
-		}
-		
-	}
-
-	public function do_logout()
-	{
-		$this->session->unset_userdata('user_id');
-		return redirect('user');
-	}		
+	
 }
 ?>

@@ -40,7 +40,7 @@ class Loginmodel extends CI_Model
 
 	public function do_login($ce_username,$password)
 	{
-		$query = $this->db->get_where('signup', array('ce_username' => $ce_username,'password' => md5($password),'activation_code' => active));		
+		$query = $this->db->get_where('signup', array('ce_username' => $ce_username,'password' => md5($password),'activation_code' => 'active'));		
 		return $query->result();
 	}
 
