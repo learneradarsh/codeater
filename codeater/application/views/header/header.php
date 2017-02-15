@@ -44,6 +44,11 @@ echo link_tag('assests/css/bootstrap-social/assets/css/font-awesome.css', 'style
     <!-- on page load modal-->
     
     <!-- on page modal closed -->
+<style>
+.navbar{
+margin-bottom :2px;
+}
+</style>
   </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed">
@@ -55,7 +60,7 @@ echo link_tag('assests/css/bootstrap-social/assets/css/font-awesome.css', 'style
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <a class="navbar-brand" href="<?=base_url();?>"><b><img src="<?=base_url('assests/images/codeaterwhite.png');?>" style="width:200px; heigth:60px;"/></b></a>
+        <a class="navbar-brand" href="<?=base_url();?>"><b><img src="<?=base_url('assests/images/codeaterWhite.png');?>" style="width:200px; heigth:60px;"/></b></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">

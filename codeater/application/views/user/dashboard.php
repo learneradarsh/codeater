@@ -8,7 +8,32 @@
         <li><a href="#Upcomming" data-toggle="pill">Upcomming<span class="badge" style="background:#64dd17">5</span></a></li>
         <li><a href="#Recent" data-toggle="pill">recent</a></li>
       </ul>
+
+
+<!-- challenge type start -->
+
+    <div class="panel panel-default" style="margin-top:20px">
+      <div class="panel-heading" style="background-color:#55ACEE;font-family: 'Dosis', sans-serif;font-size:1.2em;"><b>Challenges Type</b></div>
+        <div class="panel-body" style="padding: 10px;">
+          <input id="id_is_competitive" name="is_competitive" type="checkbox">
+          <label for="id_is_competitive" class="checkbox-label">Competitive</label>
+        </div>
+	<div class="panel-body" style="padding: 10px;">
+          <input id="id_is_competitive" name="is_competitive" type="checkbox">
+          <label for="id_is_competitive" class="checkbox-label">Hiring Challenges</label>
+        </div>
+	<div class="panel-body" style="padding: 10px;">
+          <input id="id_is_competitive" name="is_competitive" type="checkbox">
+          <label for="id_is_competitive" class="checkbox-label">College Challenges</label>
+        </div>
+	<div class="panel-body" style="padding: 10px;">
+          <input id="id_is_competitive" name="is_competitive" type="checkbox">
+          <label for="id_is_competitive" class="checkbox-label">Hackathons</label>
+        </div>	
     </div>
+</div>
+
+<!-- challenge type stop -->
 
     <!-- Tab Content -->
     <div class="col-md-7">
@@ -26,6 +51,66 @@
               </div>
            </div>
           </div>
+	  <div class="col-md-4">
+             <div class="row">
+              <div class="thumbnail"style="margin-right:10px">
+                <img src="images/banner1.jpg" alt="img.jpg">
+                <div class="caption">
+                  <h3>Code Mela</h3>
+                  <p>First comp</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+                </div>
+              </div>
+           </div>
+          </div>
+	 <div class="col-md-4">
+             <div class="row">
+              <div class="thumbnail"style="margin-right:10px">
+                <img src="images/banner1.jpg" alt="img.jpg">
+                <div class="caption">
+                  <h3>Code Mela</h3>
+                  <p>First comp</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+                </div>
+              </div>
+           </div>
+          </div>
+	  <div class="col-md-4">
+             <div class="row">
+              <div class="thumbnail"style="margin-right:10px">
+                <img src="images/banner1.jpg" alt="img.jpg">
+                <div class="caption">
+                  <h3>Code Mela</h3>
+                  <p>First comp</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+                </div>
+              </div>
+           </div>
+          </div>
+	  <div class="col-md-4">
+             <div class="row">
+              <div class="thumbnail"style="margin-right:10px">
+                <img src="images/banner1.jpg" alt="img.jpg">
+                <div class="caption">
+                  <h3>Code Mela</h3>
+                  <p>First comp</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+                </div>
+              </div>
+           </div>
+          </div>
+	  <div class="col-md-4">
+             <div class="row">
+              <div class="thumbnail"style="margin-right:10px">
+                <img src="images/banner1.jpg" alt="img.jpg">
+                <div class="caption">
+                  <h3>Code Mela</h3>
+                  <p>First comp</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+                </div>
+              </div>
+           </div>
+          </div>	
       </div>
       <div class="tab-pane" id="Upcomming">
         <div class="col-md-4">
@@ -40,9 +125,153 @@
           </div>
        </div>
       </div>
+      <div class="col-md-4">
+         <div class="row">
+          <div class="thumbnail"style="margin-right:10px">
+            <img src="images/banner1.jpg" alt="img.jpg">
+            <div class="caption">
+              <h3>Code Mela</h3>
+              <p>Second comp</p>
+              <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+            </div>
+          </div>
+       </div>
+      </div>
+      <div class="col-md-4">
+         <div class="row">
+          <div class="thumbnail"style="margin-right:10px">
+            <img src="images/banner1.jpg" alt="img.jpg">
+            <div class="caption">
+              <h3>Code Mela</h3>
+              <p>Second comp</p>
+              <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+            </div>
+          </div>
+       </div>
+      </div>
+	<div class="col-md-4">
+         <div class="row">
+          <div class="thumbnail"style="margin-right:10px">
+            <img src="images/banner1.jpg" alt="img.jpg">
+            <div class="caption">
+              <h3>Code Mela</h3>
+              <p>Second comp</p>
+              <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+            </div>
+          </div>
+       </div>
+      </div>
+	<div class="col-md-4">
+         <div class="row">
+          <div class="thumbnail"style="margin-right:10px">
+            <img src="images/banner1.jpg" alt="img.jpg">
+            <div class="caption">
+              <h3>Code Mela</h3>
+              <p>Second comp</p>
+              <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+            </div>
+          </div>
+       </div>
+      </div>
+	<div class="col-md-4">
+         <div class="row">
+          <div class="thumbnail"style="margin-right:10px">
+            <img src="images/banner1.jpg" alt="img.jpg">
+            <div class="caption">
+              <h3>Code Mela</h3>
+              <p>Second comp</p>
+              <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+            </div>
+          </div>
+       </div>
+      </div>
+	<div class="col-md-4">
+         <div class="row">
+          <div class="thumbnail"style="margin-right:10px">
+            <img src="images/banner1.jpg" alt="img.jpg">
+            <div class="caption">
+              <h3>Code Mela</h3>
+              <p>Second comp</p>
+              <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+            </div>
+          </div>
+       </div>
+      </div>	
     </div>
     <div class="tab-pane" id="Recent">
       <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="images/banner1.jpg" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="images/banner1.jpg" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="images/banner1.jpg" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="images/banner1.jpg" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="images/banner1.jpg" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="images/banner1.jpg" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
            <div class="row">
             <div class="thumbnail"style="margin-right:10px">
               <img src="images/banner1.jpg" alt="img.jpg">
