@@ -5,21 +5,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Codeater extends CI_Controller
 {
+	public function __construct(){
+		parent::__construct();
+		$this->session->set_userdata('redirect_back', current_url() );
+	}
 	
 	public function index()
 	{
-		$data['page_title'] = 'Code@ter || HOME';
-		$data['alreadyExists'] = '';
-		$data['successRegister'] = '';
-		$this->load->view('header/header', $data);
-		$this->load->view('index');
-		$this->load->view('footer/footer');
+		if( $this->session->userdata('user_id')){
+			$data['page_title'] = 'Code@ter || Welcome';
+			$this->load->view('header/dash_header',$data);
+			$this->load->view('index');
+			$this->load->view('footer/footer');
+		}
+		else{
+			$data['page_title'] = 'Code@ter || HOME';
+			$this->load->view('header/header', $data);
+			$this->load->view('index');
+			$this->load->view('footer/footer');
+		}
 	}
 
 	public function contest()
-	{
+	{		
 		$data['page_title'] = 'Code@ter || Contest';
-		$this->load->view('header/header', $data);
+		if( $this->session->userdata('user_id')){
+			$this->load->view('header/dash_header',$data);	
+		}else{	
+			$this->load->view('header/header', $data);
+		}
 		$this->load->view('contest');
 		$this->load->view('footer/footer');
 	}
@@ -27,7 +41,11 @@ class Codeater extends CI_Controller
 	public function hot_topic()
 	{	
 		$data['page_title'] = 'Code@ter || Hot Topics';
-		$this->load->view('header/header', $data);
+		if( $this->session->userdata('user_id')){
+			$this->load->view('header/dash_header',$data);	
+		}else{	
+			$this->load->view('header/header', $data);
+		}
 		$this->load->view('hot_topic');
 		$this->load->view('footer/footer');
 	}
@@ -35,7 +53,11 @@ class Codeater extends CI_Controller
 	public function practice()
 	{	
 		$data['page_title'] = 'Code@ter || practice';
-		$this->load->view('header/header', $data);
+		if( $this->session->userdata('user_id')){
+			$this->load->view('header/dash_header',$data);	
+		}else{	
+			$this->load->view('header/header', $data);
+		}
 		$this->load->view('practice');
 		$this->load->view('footer/footer');
 	}
@@ -43,7 +65,11 @@ class Codeater extends CI_Controller
 	public function tutorials()
 	{
 		$data['page_title'] = 'Code@ter || Tutorials';
-		$this->load->view('header/header', $data);
+		if( $this->session->userdata('user_id')){
+			$this->load->view('header/dash_header',$data);	
+		}else{	
+			$this->load->view('header/header', $data);
+		}
 		$this->load->view('tutorials');
 		$this->load->view('footer/footer');
 	} 	
@@ -68,10 +94,66 @@ class Codeater extends CI_Controller
 			else if($filename == 'TandC')
 				$data['page_title'] = 'Code@ter || Terms and Conditions';
 
+			if( $this->session->userdata('user_id')){
+			$this->load->view('header/dash_header',$data);	
+			}else{	
 			$this->load->view('header/header', $data);
+			}
 			$this->load->view('general/'.$filename);
 			$this->load->view('footer/footer');
 		
+	}
+	public function COC()
+	{
+		$data['page_title'] = 'Code@ter || COC';
+		if( $this->session->userdata('user_id')){
+			$this->load->view('header/dash_header',$data);
+			$this->load->view('user/COG');
+			$this->load->view('footer/footer');
+		}
+		else{
+			return redirect('');
+		}	
+
+	}
+	
+	public function inbox()
+	{
+		$data['page_title'] = 'Code@ter || Inbox';
+		if( $this->session->userdata('user_id')){
+			$this->load->view('header/dash_header',$data);
+			$this->load->view('user/Inbox');
+			$this->load->view('footer/footer');
+		}
+		else{
+			return redirect('');
+		}
+	}
+
+	public function rank_list()
+	{
+		$data['page_title'] = 'Code@ter || Ranking';
+		if( $this->session->userdata('user_id')){
+			$this->load->view('header/dash_header',$data);
+			$this->load->view('user/Rank_List');
+			$this->load->view('footer/footer');
+		}
+		else{
+			return redirect('');
+		}
+	}
+
+	public function dashboard()
+	{
+		$data['page_title'] = 'Code@ter || Dashboard';
+		if( $this->session->userdata('user_id')){
+			$this->load->view('header/dash_header',$data);
+			$this->load->view('user/dashboard');
+			$this->load->view('footer/footer');
+		}
+		else{
+			return redirect('');
+		}
 	}
 }
 ?>

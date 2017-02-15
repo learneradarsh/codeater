@@ -29,7 +29,7 @@ class Login extends CI_Controller {
 			}
 			else if($this->isEmailExist($data['emailsignup'])){
 				$this->session->set_flashdata('register_failed','User with Email ID already Exists.!');
-				return redirect('codeater');   
+				return redirect('');   
 			}
 			else{	
 				$data['activation_code'] = $this->sendmail($data['emailsignup']);
@@ -37,11 +37,11 @@ class Login extends CI_Controller {
 				if( $this->loginmodel->do_register($data))
 				{
 					$this->session->set_flashdata('successRegister','Successfully registered.!');
-					return redirect('codeater');
+					return redirect('');
 				}
 				else{
 					$this->session->set_flashdata('Error','Some Error Occured..Try Again Later..!');
-					return redirect('codeater');
+					return redirect('');
 				}
 			}
 	}
@@ -85,6 +85,41 @@ class Login extends CI_Controller {
 		}
 	}
 
-	
+	public function do_login()
+	{
+		$ce_username=$this->input->post('username');
+		$password=$this->input->post('password');
+
+		$this->load->model('loginmodel');
+
+		if($this->loginmodel->isActive($ce_username,$password))
+		{
+			$user=$this->loginmodel->do_login($ce_username,$password);
+			if( $user[0]->ce_id )
+			{
+				$this->session->set_userdata('user_id',$user[0]->ce_id);
+				$redirect_url = $this->session->userdata('redirect_back');
+    				redirect( $redirect_url );
+			}
+			else
+			{
+				$this->session->set_flashdata('errorVerify','Please go to the registered Email address to verify your account.!');	
+				 return redirect('login/show_signup');	
+			}
+		}
+		else {
+			
+			$this->session->set_flashdata('login_failed','Invalid Email Or Password');
+			return redirect('login/show_signup');
+		}
+		
+	}
+
+	public function do_logout()
+	{
+		$this->session->unset_userdata('user_id');
+		$redirect_url = $this->session->userdata('redirect_back');
+		redirect( $redirect_url );
+	}		
 }
 ?>
