@@ -42,10 +42,11 @@
           <div class="col-md-4">
              <div class="row">
               <div class="thumbnail"style="margin-right:10px">
-                <img src="images/banner1.jpg" alt="img.jpg">
+                <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
                 <div class="caption">
                   <h3>Code Mela</h3>
                   <p>First comp</p>
+		  <span> CATEGORY </span>
                   <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
                 </div>
               </div>
@@ -54,10 +55,11 @@
 	  <div class="col-md-4">
              <div class="row">
               <div class="thumbnail"style="margin-right:10px">
-                <img src="images/banner1.jpg" alt="img.jpg">
+                <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
                 <div class="caption">
                   <h3>Code Mela</h3>
                   <p>First comp</p>
+		  <span> CATEGORY </span>
                   <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
                 </div>
               </div>
@@ -66,10 +68,37 @@
 	 <div class="col-md-4">
              <div class="row">
               <div class="thumbnail"style="margin-right:10px">
-                <img src="images/banner1.jpg" alt="img.jpg">
+                <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
                 <div class="caption">
                   <h3>Code Mela</h3>
                   <p>First comp</p>
+		  <span> CATEGORY </span>
+                  <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+                </div>
+              </div>
+           </div>
+          </div>
+	  <div class="col-md-4">
+             <div class="row">
+              <div class="thumbnail"style="margin-right:10px">
+                <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
+                <div class="caption">
+                  <h3>Code Mela</h3>
+                  <p>First comp</p>
+		  <span> CATEGORY </span>
+                  <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+                </div>
+              </div>
+           </div>
+          </div>
+	  <div class="col-md-4">
+             <div class="row">
+              <div class="thumbnail"style="margin-right:10px">
+                <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
+                <div class="caption">
+                  <h3>Code Mela</h3>
+                  <p>First comp</p>
+		  <span> CATEGORY </span>
                   <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
                 </div>
               </div>
@@ -82,30 +111,7 @@
                 <div class="caption">
                   <h3>Code Mela</h3>
                   <p>First comp</p>
-                  <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
-                </div>
-              </div>
-           </div>
-          </div>
-	  <div class="col-md-4">
-             <div class="row">
-              <div class="thumbnail"style="margin-right:10px">
-                <img src="images/banner1.jpg" alt="img.jpg">
-                <div class="caption">
-                  <h3>Code Mela</h3>
-                  <p>First comp</p>
-                  <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
-                </div>
-              </div>
-           </div>
-          </div>
-	  <div class="col-md-4">
-             <div class="row">
-              <div class="thumbnail"style="margin-right:10px">
-                <img src="images/banner1.jpg" alt="img.jpg">
-                <div class="caption">
-                  <h3>Code Mela</h3>
-                  <p>First comp</p>
+		  <span> CATEGORY </span>
                   <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
                 </div>
               </div>
@@ -120,6 +126,7 @@
             <div class="caption">
               <h3>Code Mela</h3>
               <p>Second comp</p>
+	 	 <span> CATEGORY </span>
               <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
             </div>
           </div>
@@ -132,6 +139,7 @@
             <div class="caption">
               <h3>Code Mela</h3>
               <p>Second comp</p>
+	<span> CATEGORY </span>
               <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
             </div>
           </div>
@@ -140,10 +148,24 @@
       <div class="col-md-4">
          <div class="row">
           <div class="thumbnail"style="margin-right:10px">
-            <img src="images/banner1.jpg" alt="img.jpg">
+            <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
             <div class="caption">
               <h3>Code Mela</h3>
               <p>Second comp</p>
+		<span> CATEGORY </span>
+              <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+            </div>
+          </div>
+       </div>
+      </div>
+	<div class="col-md-4">
+         <div class="row">
+          <div class="thumbnail"style="margin-right:10px">
+            <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
+            <div class="caption">
+              <h3>Code Mela</h3>
+              <p>Second comp</p>
+		<span> CATEGORY </span>
               <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
             </div>
           </div>
@@ -156,6 +178,7 @@
             <div class="caption">
               <h3>Code Mela</h3>
               <p>Second comp</p>
+		<span> CATEGORY </span>
               <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
             </div>
           </div>
@@ -164,10 +187,11 @@
 	<div class="col-md-4">
          <div class="row">
           <div class="thumbnail"style="margin-right:10px">
-            <img src="images/banner1.jpg" alt="img.jpg">
+            <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
             <div class="caption">
               <h3>Code Mela</h3>
               <p>Second comp</p>
+		<span> CATEGORY </span>
               <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
             </div>
           </div>
@@ -176,22 +200,11 @@
 	<div class="col-md-4">
          <div class="row">
           <div class="thumbnail"style="margin-right:10px">
-            <img src="images/banner1.jpg" alt="img.jpg">
+            <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
             <div class="caption">
               <h3>Code Mela</h3>
               <p>Second comp</p>
-              <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
-            </div>
-          </div>
-       </div>
-      </div>
-	<div class="col-md-4">
-         <div class="row">
-          <div class="thumbnail"style="margin-right:10px">
-            <img src="images/banner1.jpg" alt="img.jpg">
-            <div class="caption">
-              <h3>Code Mela</h3>
-              <p>Second comp</p>
+		<span> CATEGORY </span>
               <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
             </div>
           </div>
@@ -202,10 +215,76 @@
       <div class="col-md-4">
            <div class="row">
             <div class="thumbnail"style="margin-right:10px">
-              <img src="images/banner1.jpg" alt="img.jpg">
+              <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
               <div class="caption">
                 <h3>Code Mela</h3>
                 <p>Third comp</p>
+		<span> CATEGORY </span>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+		<span> CATEGORY </span>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+		<span> CATEGORY </span>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+		<span> CATEGORY </span>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+		<span> CATEGORY </span>
+                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
+              </div>
+            </div>
+         </div>
+        </div>
+	 <div class="col-md-4">
+           <div class="row">
+            <div class="thumbnail"style="margin-right:10px">
+              <img src="<?=base_url('assests/images/logo.png');?>" alt="img.jpg">
+              <div class="caption">
+                <h3>Code Mela</h3>
+                <p>Third comp</p>
+		<span> CATEGORY </span>
                 <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
               </div>
             </div>
@@ -218,66 +297,7 @@
               <div class="caption">
                 <h3>Code Mela</h3>
                 <p>Third comp</p>
-                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
-              </div>
-            </div>
-         </div>
-        </div>
-	 <div class="col-md-4">
-           <div class="row">
-            <div class="thumbnail"style="margin-right:10px">
-              <img src="images/banner1.jpg" alt="img.jpg">
-              <div class="caption">
-                <h3>Code Mela</h3>
-                <p>Third comp</p>
-                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
-              </div>
-            </div>
-         </div>
-        </div>
-	 <div class="col-md-4">
-           <div class="row">
-            <div class="thumbnail"style="margin-right:10px">
-              <img src="images/banner1.jpg" alt="img.jpg">
-              <div class="caption">
-                <h3>Code Mela</h3>
-                <p>Third comp</p>
-                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
-              </div>
-            </div>
-         </div>
-        </div>
-	 <div class="col-md-4">
-           <div class="row">
-            <div class="thumbnail"style="margin-right:10px">
-              <img src="images/banner1.jpg" alt="img.jpg">
-              <div class="caption">
-                <h3>Code Mela</h3>
-                <p>Third comp</p>
-                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
-              </div>
-            </div>
-         </div>
-        </div>
-	 <div class="col-md-4">
-           <div class="row">
-            <div class="thumbnail"style="margin-right:10px">
-              <img src="images/banner1.jpg" alt="img.jpg">
-              <div class="caption">
-                <h3>Code Mela</h3>
-                <p>Third comp</p>
-                <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
-              </div>
-            </div>
-         </div>
-        </div>
-	 <div class="col-md-4">
-           <div class="row">
-            <div class="thumbnail"style="margin-right:10px">
-              <img src="images/banner1.jpg" alt="img.jpg">
-              <div class="caption">
-                <h3>Code Mela</h3>
-                <p>Third comp</p>
+		<span> CATEGORY </span>
                 <p><a href="#" class="btn btn-primary" role="button">Register Now</a></p>
               </div>
             </div>

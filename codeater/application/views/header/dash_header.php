@@ -35,7 +35,7 @@
       <li><a href="<?=base_url('tutorials');?>">Tutorial</a></li>
       <li><a href="<?=base_url('rank_list');?>">Rank List</a></li>
       <li><a href="<?=base_url('COC');?>">Clash of Geeks</a></li>
-      <li><a href="<?=base_url('inbox');?>">Inbox</a></li><li><span class="badge"  style="margin-top:10px;" >42</span></li>
+      <li><a href="<?=base_url('inbox');?>" style="padding: 15px 1px 10px 15px;">Inbox</a></li><li><span class="badge"  style="margin:15px 5px;" >42</span></li>
       <li>  <input type="text" class="form-control" placeholder="Search for..." style="margin-top:5px; margin-right:10px"></li>
     <li>
        <li><a href="<?=base_url('dashboard');?>" style="padding: 0px;"> <p><img src="<?=base_url('assests/');?>images/e_logo.png" class="profile-image img-circle" width="45px" height="35px"style="margin-top:5px"/></p></a></li>
