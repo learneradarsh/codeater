@@ -21,9 +21,6 @@
               <input type="password" placeholder="Password" class="form-control"/>
             </div>
             <button type="submit" class="btn btn-success">Login</button>
-            <a href="signup.php#toregister" type="button" class="btn btn-primary">
-  SignUp
-</a>
 <a type="button" href="help.php" class="btn btn-default">May I Help You?</a>
 
 
