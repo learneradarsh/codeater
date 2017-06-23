@@ -92,70 +92,45 @@ echo "<div class='alert alert-success alert-dismissible' role='alert'><button ty
 <!--Start Main Pannel-->
 <div class="container-fluid">
 <div class="row">
-<div class="col-md-8" style="background-color:;">
-  <div class="row" style="margin-top:7px">
-      <a href="contest.php"> <div class="col-md-4" style="background-color:">
-          <div class="panel panel-default">
-           <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">thumbs_up_down</i>&nbsp;<b>Contest</b></div>
-           <div class="panel-body" >
-              <ul class="list-group" style="margin-left: 7px">
-                <li class="list-item">Contest enhance your coding skills.</li>
-                <li class="list-item">You can win goodies here.</li>
-                <li class="list-item">It gives  you better way to get success.</li>
-                <li class="list-tem">It's only for Beginners.So , let's Begin.</li>
-              </ul>
-           </div>
-          </div>
-      </div></a>
-     <a href="practice.php"> <div class="col-md-4" style="background-color:">
-         <div class="panel panel-default">
-          <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">fitness_center</i>&nbsp;<b>Practices</b></div>
-          <div class="panel-body">
-            <ul class="list-group" style="margin-left: 7px">
-              <li class="list-item">You can practice here for free.</li>
-              <li class="list-item">Here we provide you best contents for practice.</li>
-              <li class="list-item">We've many questions on which you can practice.</li>
-              <li class="list-item">So,don't worry and let's start practice.</li>
-            </ul>
-          </div>
-         </div>
-     </div></a>
+<div class="col-md-7" style="background-image:url(http://www.freebiesgallery.com/wp-content/uploads/2014/02/blurred-background-2.jpg); margin-top:10px;margin-left: 20px;margin-right: 70px;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;">
 
-     <a href="tutorials.php"><div class="col-md-4" style="background-color:">
-        <div class="panel panel-default">
-         <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">touch_app</i>&nbsp;<b>Tutorials</b></div>
-         <div class="panel-body">
-           <ul class="list-group" style="margin-left: 7px">
-              <li class="list-item">We're occupying you better tutorial contents here.</li>
-              <li class="list-item">Best Videos for Elaboration.</li>
-              <li class="list-item">Best contents which helps you to analyze things.</li>
-              <li class="list-item">Free ebooks which is valuable for you.</li>
-            </ul>
-         </div>
+  <div class="col-md-4">
+<div class="card text-center" style="  width: 400px; margin: 120px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;">
+        <div class="header" style="color: white;padding: 10px;opacity: 0.7; font-size: 15px;">
+         <h2>Sign Up</h2>
+          <div class="input-group input-group-lg" style="  margin: 20px; width: 350px;">
+          <span class="input-group-addon" id="basic-addon1">
+          <img src="https://cdn0.iconfinder.com/data/icons/PRACTIKA/256/user.png" height="20" width="20"></span>
+           <input type="text" class="form-control" placeholder="email" aria-describedby="basic-addon1">
         </div>
-    </div></a>
-   </div>
-   <div class="row">
-        <a href="#" onclick="alert('You can not try this now.Sorry for Inconvience.')"><div class="col-md-4" style="background-color:">
-           <div class="panel panel-default">
-            <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">assessment</i><b>&nbsp;Rank List </b></div>
-            <div class="panel-body">
-              <ul class="list-group" style="margin-left: 7px">
-                <li class="list-item">Here you can view rank list of all the contestants.</li>
-                <li class="list-item">You can know your global rank.</li>
-                <li class="list-item">So , your place in this Ranklist.</li>
-              </ul>
-            </div>
-           </div>
-       </div></a>
-       <a href="#" onclick="alert('Comming Soon....')"><div class="col-md-4">
-          <div class="panel panel-default">
-           <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">pets</i>&nbsp;<b>Clash Of Geeks</b></div>
-           <div class="panel-body">Coming Soon</div>
-          </div>
-      </div></a>
+        <div class="input-group input-group-lg" style="  margin: 20px; width: 350px;" >
+          <span class="input-group-addon" id="basic-addon1">
+          <img src="https://cdn4.iconfinder.com/data/icons/superuser-web-kit/512/674008-key_reg_registration_register_signup_sign_up-256.png" height="20" width="20"></span>
+           <input type="text" class="form-control" placeholder="password" aria-describedby="basic-addon1">
+        </div>
+          <a href="#" class="btn btn-primary btn-lg btn-block">SignUp</a>
+      <div class="container-fluid" style="margin-top:15px;margin-bottom: 25px; " >   
+        <span >
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/1024px-F_icon.svg.png"
+        width="30px" height="30px" style="margin-right: 20px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Google_plus.svg/1047px-Google_plus.svg.png"
+        width="30px" height="30px" style="margin-right: 20px;">
+        <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
+        width="30px" height="30px" style="margin-right: 20px;">
+        </span>
+      </div> 
+        </div>
     </div>
+  </div>
+
 </div><!--End Main Pannel-->
+
+
 <!--Left Pannel-->
   <div class ="col-md-4" style="">
 
