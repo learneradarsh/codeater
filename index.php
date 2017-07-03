@@ -4,6 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <title>Code@ter || HOME</title>
     <?php include_once 'logo.php'; ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Join Code@ter to enjoy Programming." />
     <meta property="og:url" content="http://www.codeater.com" />
     <meta property="og:image" content="images/logo.png"/>
@@ -22,24 +24,10 @@
   </head>
 <body>
 <?php include_once 'header.php'; ?>
-<?php 
-$chk1 =$_GET['q'];
-$chk2=$_GET['q1']; 
-if($chk1 != null)
-{
-echo "<div class='alert alert-danger alert-dismissible' role='alert'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><center><strong>User Already Registered</strong></center></div>";
-}
-else if($chk2 != null)
-{
-echo "<div class='alert alert-success alert-dismissible' role='alert'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><center><strong>User successfully registered.&nbsp;Please Check your email for activation link.</strong></center></div>";
-}
-?>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -48,30 +36,10 @@ echo "<div class='alert alert-success alert-dismissible' role='alert'><button ty
       <img src="images/brthdy.png" alt="Celebration of Codeater Birthday" height="351px" width="1348px">
       <div class="carousel-caption">
         <p align="center" style="margin-bottom:3px">  <a type="button" href="CIM.php" class="btn btn-primary btn-lg">
-  Apply For Internship
+ Download Our Desktop App
 </a>
 
        </p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="images/intern.png" alt="Codeater Internship Mania" height="351px" width="1350px">
-      <div class="carousel-caption">
-        <p align="center">  <a type="button" href="CIM.php" class="btn btn-primary btn-lg">
-  Apply For Internship
-</a>
-
-</p>
-      </div>
-    </div>
-          <div class="item">
-      <img src="images/features.png" alt="features Of Codeater" height="351px" width="1348px">
-      <div class="carousel-caption">
-        <p align="center">  <a type="button" href="CIM.php" class="btn btn-primary btn-lg">
-  Apply For Internship
-</a>
-
-</p>
       </div>
     </div>
   </div>
@@ -94,28 +62,26 @@ echo "<div class='alert alert-success alert-dismissible' role='alert'><button ty
 <div class="row">
 <div class="col-md-8" style="background-color:;">
   <div class="row" style="margin-top:7px">
-      <a href="contest.php"> <div class="col-md-4" style="background-color:">
+      <a href="#"> <div class="col-md-4" style="background-color:">
           <div class="panel panel-default">
-           <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">thumbs_up_down</i>&nbsp;<b>Contest</b></div>
+           <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">thumbs_up_down</i>&nbsp;<b>Code Repository</b></div>
            <div class="panel-body" >
               <ul class="list-group" style="margin-left: 7px">
-                <li class="list-item">Contest enhance your coding skills.</li>
-                <li class="list-item">You can win goodies here.</li>
-                <li class="list-item">It gives  you better way to get success.</li>
-                <li class="list-tem">It's only for Beginners.So , let's Begin.</li>
+                <li class="list-item">You can save your code in a categorize way..</li>
+                <li class="list-item">Code editor gives you better experience.</li>
+                <li class="list-tem">You can fetch your code from anywhere anytime.</li>
+                <li class="list-tem">You can share your code repo with your friends by giving them sort link.</li>
               </ul>
            </div>
           </div>
       </div></a>
-     <a href="practice.php"> <div class="col-md-4" style="background-color:">
+     <a href="#"> <div class="col-md-4" style="background-color:">
          <div class="panel panel-default">
-          <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">fitness_center</i>&nbsp;<b>Practices</b></div>
+          <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">fitness_center</i>&nbsp;<b>Desktop App</b></div>
           <div class="panel-body">
             <ul class="list-group" style="margin-left: 7px">
-              <li class="list-item">You can practice here for free.</li>
-              <li class="list-item">Here we provide you best contents for practice.</li>
-              <li class="list-item">We've many questions on which you can practice.</li>
-              <li class="list-item">So,don't worry and let's start practice.</li>
+              <li class="list-item">You can store your data on local.</li>
+              <li class="list-item">WoW! It's open source.</li>
             </ul>
           </div>
          </div>
@@ -198,7 +164,7 @@ echo "<div class='alert alert-success alert-dismissible' role='alert'><button ty
 <!--End Left Pannel-->
 <!--End Main-->
 <!-- script files ---->
-s<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 <!--- script files closed -->

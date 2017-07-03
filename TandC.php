@@ -1,4 +1,8 @@
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 <p><h4>Codeater Terms of Service and Privacy Policy</h4></p>
 <p><b>1. Terms</b></p>
 
@@ -42,4 +46,5 @@ We will make readily available to customers information about our policies and p
 We will only retain personal information for as long as necessary for the fulfilment of those purposes.
 
 We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained. Codeater may change this privacy policy from time to time at Codeater's sole discretion.</p>
+</body>
 </html>

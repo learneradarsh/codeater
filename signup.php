@@ -1,98 +1,51 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="UTF-8" />
-        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
-        <title>Code@ter || SignUp</title>
-        <?php include_once 'logo.php'; ?>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="Code@ter" />
-        <?php include_once 'logo.php' ?> 
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/style3.css" />
-		<link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" herf="css/font.css">
-        <link rel="stylesheet" href="main.css">
-        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap-social/bootstrap-social.css">
-    </head>
-    <body>
-            <?php include_once 'header.php'; ?>
-        <div class="container">
-            
-            <section>				
-                <div id="container_demo" >
-                    <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
-                    <a class="hiddenanchor" id="toregister"></a>
-                    <a class="hiddenanchor" id="tologin"></a>
-                    <div id="wrapper">
-                            <div id="register" class="animate form">
-                            <form  action="entry.php" method="post" autocomplete="on" enctype="multipart/form-data"> 
-                                <h1> Sign up </h1> 
-                                <p> 
-                                    <label for="usernamesignup" class="uname" data-icon="u">Your username</label>
-                                    <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="UserName" />
-                                </p>
-                                <p> 
-                                    <label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
-                                    <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="Email"/> 
-                                </p>
-                                <p> 
-                                    <label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
-                                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="********"/>
-                                </p>
-                                <p> 
-                                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
-                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="********"/>
-                                </p>
-                                <p class="signin button"> 
-									<input type="submit" value="Sign up"/> 
-								</p>
-                                <p class="change_link">  
-									Already a member ?
-									<a href="#tologin" class="to_register"> Go and log in </a>
-								</p>
-                            </form>
-                        </div>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Code@ter || SIGNUP</title>
+    <?php include_once 'logo.php'; ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Join Code@ter to enjoy Programming." />
+    <meta property="og:url" content="http://www.codeater.com" />
+    <meta property="og:image" content="images/logo.png"/>
+    <meta property="og:description" content="Code@ter is a Competitive Programming  Website having some new features like Questions in hindi also,and Clash Of Geeks." />
+    <meta property="og:site_name" content="Code@ter.com" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" herf="css/font.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/bootstrap-social/assets/css/font-awesome.css">
+    <!-- on page loaad modal-->
+    
+    <!-- on page modal closed -->
+  </head>
+<body>
+<?php include_once 'header.php'; ?>
+<div class="container" style="margin-top: 98px;">
+  <form method="POST" name="signup-form" id="signup-form" action="login_script.php" enctype="multipart/form-data">
+  <div class="panel" align="center" style="margin-left:30%;margin-right:30%;">
+    <h1>SIGNUP HERE</h1>
+    <div class="form-group">
+      <input type="text" class="form-control" name="name" placeholder="Name" required="required">
+    </div>
+    <div class="form-group">
+      <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+    </div>
+    <div>
+      <button type="submit" class="btn btn-success">SIGNUP</button>
+    </div>
+  </div>
+  </form>
+</div>
 
-                        <div id="login" class="animate form">
-                            <form  action="mysuperscript.php" autocomplete="on"> 
-                                <h1>Log in</h1> 
-                                <p> 
-                                    <label for="username" class="uname" data-icon="u" > Your email or username </label>
-                                    <input id="username" name="username" required="required" type="text" placeholder="UserName"/>
-                                </p>
-                                <p> 
-                                    <label for="password" class="youpasswd" data-icon="p"> Your password </label>
-                                    <input id="password" name="password" required="required" type="password" placeholder="********" /> 
-                                </p>
-                                <p class="keeplogin"> 
-                                    <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
-                                    <label for="loginkeeping">Keep me logged in</label>
-                                </p>
-                                <p class="login button"> 
-                                    <input type="submit" value="Login" /> 
-                                </p>
-                                <p class="change_link">
-                                    Not a member yet ?
-                                    <a href="#toregister" class="to_register">Join us</a>
-                                </p>
-                            </form>
-                        </div>
-						
-                    </div>
-                </div>  
-            </section>
-        </div>
-        <!-- script files ---->
+
+
+<!--script files -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
@@ -101,6 +54,6 @@
 <?php include_once 'footer.php';  ?>
 </div>
 <!--End Footer-->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57daf7f457169c43"></script>
-    </body>
+
+</body>
 </html>

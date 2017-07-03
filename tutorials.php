@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <title>Code@ter || Tutorials</title>
     <?php include_once 'logo.php'; ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Are you programmer???,you can practice and learn here for free." />
     <meta property="og:url" content="http://www.codeater.com/tutorials.php" />
     <meta property="og:image" content="images/code_ater.jpg"/>
