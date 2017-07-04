@@ -60,104 +60,134 @@
 <!--Start Main Pannel-->
 <div class="container-fluid">
 <div class="row">
-<div class="col-md-8" style="background-color:;">
-  <div class="row" style="margin-top:7px">
-      <a href="#"> <div class="col-md-4" style="background-color:">
-          <div class="panel panel-default">
-           <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">thumbs_up_down</i>&nbsp;<b>Code Repository</b></div>
-           <div class="panel-body" >
-              <ul class="list-group" style="margin-left: 7px">
-                <li class="list-item">You can save your code in a categorize way..</li>
-                <li class="list-item">Code editor gives you better experience.</li>
-                <li class="list-tem">You can fetch your code from anywhere anytime.</li>
-                <li class="list-tem">You can share your code repo with your friends by giving them sort link.</li>
-              </ul>
-           </div>
-          </div>
-      </div></a>
-     <a href="#"> <div class="col-md-4" style="background-color:">
-         <div class="panel panel-default">
-          <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">fitness_center</i>&nbsp;<b>Desktop App</b></div>
-          <div class="panel-body">
-            <ul class="list-group" style="margin-left: 7px">
-              <li class="list-item">You can store your data on local.</li>
-              <li class="list-item">WoW! It's open source.</li>
-            </ul>
-          </div>
-         </div>
-     </div></a>
-
-     <a href="tutorials.php"><div class="col-md-4" style="background-color:">
-        <div class="panel panel-default">
-         <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">touch_app</i>&nbsp;<b>Tutorials</b></div>
-         <div class="panel-body">
-           <ul class="list-group" style="margin-left: 7px">
-              <li class="list-item">We're occupying you better tutorial contents here.</li>
-              <li class="list-item">Best Videos for Elaboration.</li>
-              <li class="list-item">Best contents which helps you to analyze things.</li>
-              <li class="list-item">Free ebooks which is valuable for you.</li>
-            </ul>
-         </div>
+<!-- left panel start -->
+<div class="col-md-8">
+        
+        <!-- row 1 start -->
+          <div class="row" style="margin-top: 18px;">
+          <!--thumbnail 1 start-->
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                     <img src="..." alt="...">
+                    <div class="caption">
+                      <h3>Code Repo</h3>
+                      <p>...</p>
+                      <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                  </div>
+                </div>
+            <!--thumbnail 1 end-->
+             <!--thumbnail 2 start-->
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                     <img src="..." alt="...">
+                    <div class="caption">
+                      <h3>Pocket Money for Problem Setters</h3>
+                      <p>...</p>
+                      <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                  </div>
+                </div>
+            <!--thumbnail 2 end-->
+             <!--thumbnail 3 start-->
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                     <img src="..." alt="...">
+                    <div class="caption">
+                      <h3>Get Recommendation</h3>
+                      <p>...</p>
+                      <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                  </div>
+                </div>
+            <!--thumbnail 3 end-->
         </div>
-    </div></a>
-   </div>
-   <div class="row">
-        <a href="#" onclick="alert('You can not try this now.Sorry for Inconvience.')"><div class="col-md-4" style="background-color:">
-           <div class="panel panel-default">
-            <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">assessment</i><b>&nbsp;Rank List </b></div>
-            <div class="panel-body">
-              <ul class="list-group" style="margin-left: 7px">
-                <li class="list-item">Here you can view rank list of all the contestants.</li>
-                <li class="list-item">You can know your global rank.</li>
-                <li class="list-item">So , your place in this Ranklist.</li>
-              </ul>
-            </div>
-           </div>
-       </div></a>
-       <a href="#" onclick="alert('Comming Soon....')"><div class="col-md-4">
-          <div class="panel panel-default">
-           <div class="panel-heading" style="background-color:#EFF7FF;font-family: 'Dosis', sans-serif;font-size:1.2em;"><i class="material-icons">pets</i>&nbsp;<b>Clash Of Geeks</b></div>
-           <div class="panel-body">Coming Soon</div>
-          </div>
-      </div></a>
-    </div>
-</div><!--End Main Pannel-->
-<!--Left Pannel-->
-  <div class ="col-md-4" style="">
 
-   <a href="hot_topic.php" style="text-decoration:none"> <div class="panel panel-default" style="margin-top:7px">
-      <div class="panel-heading" style="background-color:#55ACEE;font-family: 'Dosis', sans-serif;font-size:1.2em;color:white"><i class="material-icons">whatshot</i>&nbsp;<b>Hot Topic</b></div>
-      <div class="panel-body">
-        <ul class="list-group" style="margin-left: 12px">
-          <li class="list-item">Modular Mathematics.</li>
-          <li class="list-item">String Manipulation.</li>
-          <li class="list-item">Array of Pointer.</li>
-          <li class="list-item">Bitwise Operators.</li>
-          <li class="list-item">Complexity Finding.</li>
-            <li class="list-item">Big-O Complexity Chart</li>
-        </ul>
-      </div>
-    </div></a>
+        <!-- thumbnail end 1-->  
+        <!--row 1 end -->
+        <!-- row 2 start -->
+          <div class="row">
+          <!--thumbnail 1 start-->
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                     <img src="..." alt="...">
+                    <div class="caption">
+                      <h3>Thumbnail label</h3>
+                      <p>...</p>
+                      <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                  </div>
+                </div>
+            <!--thumbnail 1 end-->
+             <!--thumbnail 2 start-->
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                     <img src="..." alt="...">
+                    <div class="caption">
+                      <h3>Thumbnail label</h3>
+                      <p>...</p>
+                      <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                  </div>
+                </div>
+            <!--thumbnail 2 end-->
+             <!--thumbnail 3 start-->
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                     <img src="..." alt="...">
+                    <div class="caption">
+                      <h3>Thumbnail label</h3>
+                      <p>...</p>
+                      <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                  </div>
+                </div>
+            <!--thumbnail 3 end-->
+        </div>
+
+        <!-- thumbnail end 1-->  
+        <!--row 2 end -->
+                 
+</div>
+<!--End Main Pannel-->
+
+<!--right panel start-->
+                  <div class ="col-md-4" style="">
+
+                   <a href="hot_topic.php" style="text-decoration:none"> <div class="panel panel-default" style="margin-top:7px">
+                      <div class="panel-heading" style="background-color:#55ACEE;font-family: 'Dosis', sans-serif;font-size:1.2em;color:white"><i class="material-icons">whatshot</i>&nbsp;<b>Hot Topic</b></div>
+                      <div class="panel-body">
+                        <ul class="list-group" style="margin-left: 12px">
+                          <li class="list-item">Modular Mathematics.</li>
+                          <li class="list-item">String Manipulation.</li>
+                          <li class="list-item">Array of Pointer.</li>
+                          <li class="list-item">Bitwise Operators.</li>
+                          <li class="list-item">Complexity Finding.</li>
+                            <li class="list-item">Big-O Complexity Chart</li>
+                        </ul>
+                      </div>
+                    </div></a>
 
 
- <div class="panel panel-default">
-     <div class="panel-heading" style="background-color:#55ACEE;font-family: 'Dosis', sans-serif;font-size:1.2em;color:white"><i class="material-icons">local_library</i>&nbsp;<b>Suggest Problems</b></div>
-     <div class="panel-body">
-       <ul class="list-group" style="margin-left: 12px">
-        <li class="list-item"><a href="https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/the-great-kian/">The great Kian having some routes.</a></li>
-        <li class="list-item"><a href="https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/print-hackerearth/">Print HackerEarth with funny strings.</a></li>
-        <li class="list-item"><a href="https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/the-old-monk/">Old Monk with his stick.</a></li>
-       </ul>
-     </div>
- </div>
+                 <div class="panel panel-default">
+                     <div class="panel-heading" style="background-color:#55ACEE;font-family: 'Dosis', sans-serif;font-size:1.2em;color:white"><i class="material-icons">local_library</i>&nbsp;<b>Suggest Problems</b></div>
+                     <div class="panel-body">
+                       <ul class="list-group" style="margin-left: 12px">
+                        <li class="list-item"><a href="https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/the-great-kian/">The great Kian having some routes.</a></li>
+                        <li class="list-item"><a href="https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/print-hackerearth/">Print HackerEarth with funny strings.</a></li>
+                        <li class="list-item"><a href="https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/the-old-monk/">Old Monk with his stick.</a></li>
+                       </ul>
+                     </div>
+                 </div>
 
 
-  <a href="#" style="text-decoration:none"><div class="panel panel-default">
-    <div class="panel-heading" style="background-color:#55ACEE;font-family: 'Dosis', sans-serif;font-size:1.2em;color:white"><i class="material-icons">timeline</i>&nbsp;<b>Top to Gainers of COG</b></div>
-    <div class="panel-body">Coming Soon</div>
-  </div>
- </a>
- </div>
+                  <a href="#" style="text-decoration:none"><div class="panel panel-default">
+                    <div class="panel-heading" style="background-color:#55ACEE;font-family: 'Dosis', sans-serif;font-size:1.2em;color:white"><i class="material-icons">timeline</i>&nbsp;<b>Top to Gainers of COG</b></div>
+                    <div class="panel-body">Coming Soon</div>
+                  </div>
+                 </a>
+                 </div>
+                 <!--right panel end -->
  </div>
  </div>
 
